@@ -1,0 +1,39 @@
+
+# PlanAhead Generated physical constraints 
+
+# Seven-segment display
+NET "anode[3]" LOC = P17;
+NET "anode[2]" LOC = P18;
+NET "anode[1]" LOC = N15;
+NET "anode[0]" LOC = N16;
+NET "cathode[6]" LOC = T17;
+NET "cathode[5]" LOC = T18;
+NET "cathode[4]" LOC = U17;
+NET "cathode[3]" LOC = U18;
+NET "cathode[2]" LOC = M14;
+NET "cathode[1]" LOC = N14;
+NET "cathode[0]" LOC = L14;
+
+#100 MHz internal clock
+NET "clk" LOC = V10;
+
+# PMOD AMP Pins 1, 2 and 4 - JA lower row (JA8, JA9 and JA10)
+NET "AUDIO_IP" LOC = M10;
+NET "GAIN_SEL" LOC = N9;
+NET "ALS" LOC = V11;
+
+# Reset and song select switches
+NET "RESET" LOC = T10;
+NET "song_sel" LOC = T9;
+NET "pause" LOC = V9;
+
+# LEDs
+NET "ld7" LOC = T11;
+NET "ld6" LOC = R11;
+NET "ld5" LOC = N11;
+NET "ld4" LOC = M11;
+NET "ld3" LOC = V15;
+NET "ld2" LOC = U15;
+NET "ld1" LOC = V16;
+NET "ld0" LOC = U16;
+
